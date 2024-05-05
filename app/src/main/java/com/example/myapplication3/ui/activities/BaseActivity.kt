@@ -30,7 +30,7 @@ open class BaseActivity : AppCompatActivity(), View.OnClickListener, IDialog {
     lateinit var myViewModel: MyViewModel
     var page = 1
     var nextPageAvailable = false
-    var PAGE_LIMIT = Constants.PAGE_LIMIT
+    //var PAGE_LIMIT = Constants.PAGE_LIMIT
     var REQUEST_CODE_SETTINGS = 10001
     var TAG_GUEST_USER_ALERT = 10002
     var TAG_SHOULD_FINISH_ACTIVITY = 10003
