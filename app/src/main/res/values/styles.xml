@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3">
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3">
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="MainLayoutStyle">
+        <item name="android:padding">@dimen/dimen_15dp</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:textSize">@dimen/dimen_8sp</item>
+    </style>
+
+    <style name="BottomNavigationViewActiveIndicator">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+    </style>
+
+    <style name="ImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="CornerFamily_10">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dimen_10dp</item>
+    </style>
+
+    <style name="ButtonStyleText" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditTextViewStyleRegular">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewStyleRegular">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextViewStyleHeading">
+        <item name="android:textSize">@dimen/dimen_20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonStyleRegular" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonStyleOutline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:textSize">@dimen/dimen_13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/primary</item>
+    </style>
+
+    <style name="dialog_theme">
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+    <style name="no_record_found_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:text">@string/no_record_found</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_15sp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/dimen_10dp</item>
+    </style>
+
+    <style name="iv_no_record_found_style">
+        <item name="android:layout_width">@dimen/dimen_122dp</item>
+        <item name="android:layout_height">@dimen/dimen_112dp</item>
+        <item name="android:src">@drawable/ic_push_notification</item>
+    </style>
+
+    <style name="ll_no_record_found_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_1px</item>
+    </style>
+
+    <style name="line_style_vertical">
+        <item name="android:layout_width">@dimen/dimen_1px</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="rlMore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_17dp</item>
+    </style>
+
+    <style name="ivLeftMore">
+        <item name="android:layout_width">@dimen/dimen_36dp</item>
+        <item name="android:layout_height">@dimen/dimen_36dp</item>
+    </style>
+
+
+    <style name="tvMore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dimen_46dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_24dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/_585858</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:fontFamily">@font/tajawal_medium</item>
+    </style>
+
+</resources>

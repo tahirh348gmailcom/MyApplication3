@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--For Data Binding and Logic Purpose-->
+    <string name="empty"></string>
+
+    <!-- For Google and firebase : konstantkip@gmail.com  Konst@nt@123 -->
+    <string name="default_country_code">+966</string>
+
+    <string name="default_notification_channel_id">shorak_fcm_channel</string>
+
+    <string name="english_language_code">en</string>
+    <string name="arabic_language_code">ar</string>
+
+</resources>

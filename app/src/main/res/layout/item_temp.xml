@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/tools">
+    <data>
+
+        <import type="com.example.myapplication3.utils.Constants"/>
+
+        <variable
+            name="item"
+            type="com.example.myapplication3.models.UserModel"/>
+
+        <variable
+            name="itemClickListener"
+            type="com.example.myapplication3.interfaces.OnItemClickListener" />
+
+        <variable
+            name="tag"
+            type="Integer" />
+
+        <variable
+            name="itemClickListenerWithTag"
+            type="com.example.myapplication3.interfaces.OnItemClickListenerWithTag" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{(view)-> itemClickListener.onItemClick(view,item)}">
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_100dp"
+            bind:placeholder="@{@drawable/ic_push_notification}"
+            bind:url="@{Constants.TEMP_IMAGE}"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_100dp"
+            android:background="@color/dialog_transparent_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@{item.employeeName}"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</layout>
